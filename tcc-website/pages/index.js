@@ -23,7 +23,7 @@ export default function Home() {
         <a href='https://mentorada.vercel.app' target='_blank' rel="noreferrer">
           <div className={styles.card}>
             <h2><u>Acessar projeto &rarr;</u></h2>
-            <Image src='/mentorada.png' width={600} height={300}/>
+            <Image src='/public/mentorada.png' width={600} height={300}/>
           </div>
         </a>
 
@@ -68,7 +68,7 @@ export default function Home() {
             </p>
           </div>
 
-          <Image src='/arch.png' width={800} height={300}/>
+          <Image src='/public/arch.png' width={800} height={300}/>
       </main>
 
       <footer className={styles.footer}>
