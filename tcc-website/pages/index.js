@@ -20,7 +20,7 @@ export default function Home() {
           Projeto por Caio Silva Teixeira
         </p>
 
-        <a href='https://mentorada.vercel.app' target='_blank'>
+        <a href='https://mentorada.vercel.app' target='_blank' rel="noreferrer">
           <div className={styles.card}>
             <h2><u>Acessar projeto &rarr;</u></h2>
             <Image src='/mentorada.png' width={600} height={300}/>
@@ -28,11 +28,11 @@ export default function Home() {
         </a>
 
             <br />
-            <a href='https://github.com/caioteixeiraa/tcc-front' target='_blank'>
+            <a href='https://github.com/caioteixeiraa/tcc-front' target='_blank' rel="noreferrer">
               <u>Repositório front-end</u>
             </a>
             <br />
-            <a href='https://github.com/caioteixeiraa/abramov' target='_blank'>
+            <a href='https://github.com/caioteixeiraa/abramov' target='_blank' rel="noreferrer">
               <u>Repositório back-end</u>
             </a>
             <br />
